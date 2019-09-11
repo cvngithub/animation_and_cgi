@@ -1,1 +1,2 @@
-# animation_and_cgi
+# Animation And CGI Solution Code
+The code listed in this repo are solutions to Columbia's Computer Animation and CGI course. The contents of each folder can be pasted verbatim into the FOSSIM folder of each assignment on codio, and then tested with `run_test.py`, to verify that it passes 100% of the test scenes.
