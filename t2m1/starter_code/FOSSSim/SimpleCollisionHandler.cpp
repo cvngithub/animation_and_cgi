@@ -24,7 +24,7 @@ bool SimpleCollisionHandler::detectParticleParticle(TwoDScene &scene, int idx1, 
     VectorXs x1 = scene.getX().segment<2>(2*idx1);
     VectorXs x2 = scene.getX().segment<2>(2*idx2);
     
-    // your implementation here
+    // Your code goes here!
     
     return false;
 }
@@ -47,7 +47,7 @@ bool SimpleCollisionHandler::detectParticleEdge(TwoDScene &scene, int vidx, int 
     VectorXs x2 = scene.getX().segment<2>(2*scene.getEdges()[eidx].first);
     VectorXs x3 = scene.getX().segment<2>(2*scene.getEdges()[eidx].second);
     
-    // your implementation here
+    // Your code goes here!
     
     return false;
 }
@@ -70,7 +70,7 @@ bool SimpleCollisionHandler::detectParticleHalfplane(TwoDScene &scene, int vidx,
     VectorXs px = scene.getHalfplane(pidx).first;
     VectorXs pn = scene.getHalfplane(pidx).second;
     
-    // your implementation here
+    // Your code goes here!
     
     return false;
 }
@@ -91,7 +91,7 @@ void SimpleCollisionHandler::respondParticleParticle(TwoDScene &scene, int idx1,
     const VectorXs &M = scene.getM();
     VectorXs &v = scene.getV();
     
-    // your implementation here
+    // Your code goes here!
     
 }
 
@@ -119,7 +119,7 @@ void SimpleCollisionHandler::respondParticleEdge(TwoDScene &scene, int vidx, int
     VectorXs v2 = scene.getV().segment<2>(2*eidx1);
     VectorXs v3 = scene.getV().segment<2>(2*eidx2);
     
-    // your implementation here
+    // Your code goes here!
     
 }
 
@@ -137,6 +137,6 @@ void SimpleCollisionHandler::respondParticleHalfplane(TwoDScene &scene, int vidx
 {
     VectorXs nhat = n;
     
-    // your implementation here
+    // Your code goes here!
     
 }

@@ -25,7 +25,7 @@ public:
                 ss << "Particle " << m_idx1 << " - Edge " << m_idx2 << " with normal = " << m_n.transpose();
                 break;
             case PH:
-                ss << "Particle " << m_idx1 << " - Halfplane " << m_idx2 << " with normal = " << m_n.transpose();
+                ss << "Parnn   nv ticle " << m_idx1 << " - Halfplane " << m_idx2 << " with normal = " << m_n.transpose();
                 break;
         }
         return ss.str();

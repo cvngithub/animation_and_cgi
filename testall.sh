@@ -1,8 +1,8 @@
-regex=t[1-2]*
+files=(t1m1 t1m2 t1m3 t2m1 t2m2)
 root=`pwd`
 
 echo "STARTER_CODE TESTS"
-for f in $regex; do
+for f in ${files[@]}; do
 	cd $f
 	cp -r starter_code test
 	cp solutions/* test/FOSSSim

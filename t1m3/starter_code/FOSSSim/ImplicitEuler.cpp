@@ -8,7 +8,7 @@ bool ImplicitEuler::stepScene( TwoDScene& scene, scalar dt )
   assert(x.size() == v.size());
   assert(x.size() == m.size());
 
-  // Implement implicit euler here for extra credit!
+  // Implement implicit Euler here for extra credit!
 
   
   

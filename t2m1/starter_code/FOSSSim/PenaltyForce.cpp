@@ -6,9 +6,6 @@ void PenaltyForce::addEnergyToTotal( const VectorXs& x, const VectorXs& v, const
     // Feel free to implement if you feel like doing so.
 }
 
-// BEGIN STUDENT CODE
-
-
 // Adds the gradient of the penalty potential (-1 * force) for a pair of 
 // particles to the total.
 // Read the positions of the particles from the input variable x. Radii can
@@ -31,7 +28,7 @@ void PenaltyForce::addParticleParticleGradEToTotal(const VectorXs &x, int idx1, 
     double r1 = m_scene.getRadius(idx1);
     double r2 = m_scene.getRadius(idx2);
     
-    // your implementation here
+    // Your code goes here!
     
 }
 
@@ -57,7 +54,7 @@ void PenaltyForce::addParticleEdgeGradEToTotal(const VectorXs &x, int vidx, int 
     double r1 = m_scene.getRadius(vidx);
     double r2 = m_scene.getEdgeRadii()[eidx];
     
-    // your implementation here
+    // Your code goes here!
     
 }
 
@@ -78,6 +75,6 @@ void PenaltyForce::addParticleHalfplaneGradEToTotal(const VectorXs &x, int vidx,
     VectorXs x1 = x.segment<2>(2*vidx);
     VectorXs nh = m_scene.getHalfplane(pidx).second;
     
-    // your implementation here
+    // Your code goes here!
     
 }

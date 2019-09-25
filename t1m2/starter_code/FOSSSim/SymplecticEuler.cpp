@@ -2,7 +2,7 @@
 
 bool SymplecticEuler::stepScene( TwoDScene& scene, scalar dt )
 {
-  /* Add milestone 2 code here.      */
+  // Your code goes here!
   
   return true;
 }

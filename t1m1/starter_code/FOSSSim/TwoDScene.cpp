@@ -2,5 +2,7 @@
 
 scalar TwoDScene::computeKineticEnergy() const
 {
-    return -1.0;
+  // Your code goes here!
+  
+  return -1.0;
 }

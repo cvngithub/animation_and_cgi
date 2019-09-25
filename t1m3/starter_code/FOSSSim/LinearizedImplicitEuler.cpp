@@ -8,7 +8,7 @@ bool LinearizedImplicitEuler::stepScene( TwoDScene& scene, scalar dt )
   assert(x.size() == v.size());
   assert(x.size() == m.size());
 
-  // Implement implicit euler here!
+  // Your code goes here!
   
   return true;
 }

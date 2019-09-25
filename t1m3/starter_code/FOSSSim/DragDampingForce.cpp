@@ -19,5 +19,5 @@ void DragDampingForce::addHessVToTotal( const VectorXs& x, const VectorXs& v, co
   assert( x.size() == hessE.cols() );
   assert( x.size()%2 == 0 );
   
-  // Compute the force Jacboian here!
+  // Compute the force Jacobian here!
 }

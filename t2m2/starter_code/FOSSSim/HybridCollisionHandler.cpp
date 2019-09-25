@@ -160,7 +160,7 @@ bool zonesEqual(const ImpactZones &zones1, const ImpactZones &zones2)
 // Possibly useful functions: detectCollisions, applyImpulses.
 bool HybridCollisionHandler::applyIterativeImpulses(const TwoDScene &scene, const VectorXs &qs, const VectorXs &qe, const VectorXs &qdote, double dt, VectorXs &qefinal, VectorXs &qdotefinal)
 {	
-    // Your implementation here
+    // Your code goes here!
 
     return false;
 }
@@ -197,7 +197,7 @@ void HybridCollisionHandler::performFailsafe(const TwoDScene &scene, const Vecto
     
     // Don't forget to handle fixed objects properly as in writeup section 4.5.1    
     
-    // Your implementation here
+    // Your code goes here!
 
 }
 
@@ -241,7 +241,7 @@ void HybridCollisionHandler::applyGeometricCollisionHandling(const TwoDScene &sc
     // 9. Set Z=Z' and goto step4.
     //
     
-    // Your implementation here
+    // Your code goes here!
 
 }
 

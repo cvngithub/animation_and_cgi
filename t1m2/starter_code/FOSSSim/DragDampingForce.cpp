@@ -7,5 +7,5 @@ void DragDampingForce::addGradEToTotal( const VectorXs& x, const VectorXs& v, co
   assert( x.size() == gradE.size() );
   assert( x.size()%2 == 0 );
   
-  // Add milestone 2 code here.
+  // Your code goes here!
 }

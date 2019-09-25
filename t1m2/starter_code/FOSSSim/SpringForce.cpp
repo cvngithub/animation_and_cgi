@@ -7,7 +7,7 @@ void SpringForce::addEnergyToTotal( const VectorXs& x, const VectorXs& v, const 
   assert( m_endpoints.first >= 0 );  assert( m_endpoints.first < x.size()/2 );
   assert( m_endpoints.second >= 0 ); assert( m_endpoints.second < x.size()/2 );
 
-  // Add milestone 2 code here.
+  // Your code goes here!
 }
 
 void SpringForce::addGradEToTotal( const VectorXs& x, const VectorXs& v, const VectorXs& m, VectorXs& gradE )
@@ -18,5 +18,5 @@ void SpringForce::addGradEToTotal( const VectorXs& x, const VectorXs& v, const V
   assert( m_endpoints.first >= 0 );  assert( m_endpoints.first < x.size()/2 );
   assert( m_endpoints.second >= 0 ); assert( m_endpoints.second < x.size()/2 );
 
-  // Add milestone 2 code here.
+  // Your code goes here!
 }

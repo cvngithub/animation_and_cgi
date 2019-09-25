@@ -8,7 +8,7 @@ void GravitationalForce::addEnergyToTotal( const VectorXs& x, const VectorXs& v,
   assert( m_particles.first >= 0 );  assert( m_particles.first < x.size()/2 );
   assert( m_particles.second >= 0 ); assert( m_particles.second < x.size()/2 );
 
-  // Add milestone 2 code here.
+  // Your code goes here!
 }
 
 void GravitationalForce::addGradEToTotal( const VectorXs& x, const VectorXs& v, const VectorXs& m, VectorXs& gradE )
@@ -20,5 +20,5 @@ void GravitationalForce::addGradEToTotal( const VectorXs& x, const VectorXs& v, 
   assert( m_particles.first >= 0 );  assert( m_particles.first < x.size()/2 );
   assert( m_particles.second >= 0 ); assert( m_particles.second < x.size()/2 );
 
-  // Add milestone 2 code here.
+  // Your code goes here!
 }
